@@ -1,0 +1,13 @@
+#+TITLE: LA-Importer2
+#+AUTHOR: Geoff T. Wark
+
+This program facilitates the the loading of [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiS-v2Cv7zMAhUJRiYKHd9yBM8QFggcMAA&url=http%3A%2F%2Fwww.springshare.com%2Flibanswers%2F&usg=AFQjCNHzvF8nB6_eS5wOENW8vuIywXOUPA&bvm=bv.121070826,d.eWE][LibAnswers]] (Reference Analytics) data into a Microsoft SQL database. It only runs on Windows and expects a config located at =%appdata%/LA-Importer2/config= (1st line = connection string; 2nd line = database table).
+
+*Note:* Your database table's PK must have the setting "Ignore Duplicate Keys" set to True!
+
+
+Copyright (c) 2014 Thomas G. Carpenter Library.
+
+Subject to the Microsoft Public License.
+See http://www.microsoft.com/opensource/licenses.mspx#Ms-PL.
+All other rights reserved.
